@@ -1,0 +1,41 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    width:1400px;
+    margin:0 auto;
+    padding:10px 25px;
+    border:1px solid #ccc;
+    background:#fff; }
+    .container wider{
+        position: absolute;
+    }
+
+    .col4Display{
+        -ms-flex-align: right;
+    }
+    .fir{
+        flex-direction: row-reverse;
+    }
+.army{
+    width: 200px;
+    height: auto;
+}
+#bgcolor{
+    background-color: whitesmoke;
+}
+.p:hover{
+    text-decoration: underline;
+    color: darkgoldenrod;
+    padding: 10%;
+    margin: 10px;
+}
+
+h1{
+    font-size: xxx-large;
+    text-align: center;
+    
+}
+hr:not([size]) {
+    height: 15px;
+    background-color: red;
+}
